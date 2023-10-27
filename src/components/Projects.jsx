@@ -5,11 +5,11 @@ import portfolio from '../images/portfolio.png';
 import todoapp from '../images/todoapp.png';
 import calculator from '../images/calculator.png';
 
-const Projects = () => {
+const Projects = ({ projectRef }) => {
   const { lightTheme } = useContext(ThemeContext);
 
   return (
-    <section className={`py-10`}>
+    <section className={`py-10`} ref={projectRef}>
       <h1
         className={`text-center text-2xl md:text-3xl py-2 px-10 font-bold border-b-4 ${
           lightTheme ? 'border-b-[#005269]' : 'border-b-[#921267]'
@@ -107,7 +107,7 @@ const Projects = () => {
               </span>
               <span>
                 <a
-                  href="https://portfolio.vercel.app/"
+                  href="https://obehi-portfolio.vercel.app/"
                   target="_blank"
                   className={`flex items-center gap-1 text-md font-normal ${
                     lightTheme

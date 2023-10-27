@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import ThemeContext from "../context/ThemeContext";
 
-const Footer = () => {
+const Footer = ({footerScroll}) => {
   const { lightTheme } = useContext(ThemeContext);
   return (
-    <footer
+    <footer ref={footerScroll}
       className={`py-20 ${
         lightTheme ? "bg-[#005269]" : "bg-[black]"
       } text-white`}
@@ -16,7 +16,7 @@ const Footer = () => {
           <ul className="flex items-center  gap-6 md:w-full mt-2 md:mt-4">
             <li>
               <a
-                href="https://github.com/Nwachukwu-Uzor"
+                href="https://github.com/quinnnaira"
                 className="text-2xl flex items-center gap-1 hover:text-[#63f2a9] duration-300"
                 target="_blank"
               >
@@ -25,7 +25,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/uzor-nwachukwu-3467711a8"
+                href="https://www.linkedin.com/in/obehi-isikhuemen-297756205/"
                 target="_blank"
                 className="text-2xl flex items-center gap-1 hover:text-[#63f2a9] duration-300"
               >

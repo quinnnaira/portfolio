@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -20,6 +20,15 @@ const App = () => {
   }, []);
 
   const { lightTheme } = useContext(ThemeContext);
+  const aboutMeRef = useRef(null)
+  const projectRef = useRef(null)
+  const footerRef =useRef(null)
+
+  const scrollRefs = {
+    aboutMeRef,
+    projectRef,
+    footerRef
+  }
 
   return (
     <div
@@ -27,11 +36,12 @@ const App = () => {
         lightTheme ? "bg-[#faf9f6] text-black" : "bg-[#2d2e32] text-white"
       } min-h-screen duration-300 ease-linear`}
     >
-      <Header />
+      
+      <Header scrollRefs={scrollRefs}/>
       <Hero />
-      <About />
-      <Projects />
-      <Footer />
+      <About aboutMeRef={aboutMeRef}/>
+      <Projects projectRef={projectRef} />
+      <Footer footerScroll={footerRef}/>
     </div>
   );
 };
