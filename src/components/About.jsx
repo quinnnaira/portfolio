@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 import picture from "../images/obehi.jpg";
 import ThemeContext from "../context/ThemeContext";
 
-const About = () => {
+const About = ({ aboutMeRef }) => {
   const { lightTheme } = useContext(ThemeContext);
 
   return (
-    <section className={`py-10`}>
+    <section className={`py-10`} ref={aboutMeRef}>
       <h1
         className={`text-center text-2xl md:text-3xl py-2 px-10 font-bold border-b-4 ${
           lightTheme ? "border-b-[#005269]" : "border-b-[#921267]"
