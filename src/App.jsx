@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 import About from "./components/About";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import ThemeContext from "./context/ThemeContext";
@@ -37,7 +37,7 @@ const App = () => {
       } min-h-screen duration-300 ease-linear`}
     >
       
-      <Header scrollRefs={scrollRefs}/>
+      <Navbar scrollRefs={scrollRefs}/>
       <Hero />
       <About aboutMeRef={aboutMeRef}/>
       <Projects projectRef={projectRef} />

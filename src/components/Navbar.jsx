@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import ThemeContext from '../context/ThemeContext';
 
-const Header = ({ scrollRefs }) => {
+const Navbar = ({ scrollRefs }) => {
   const { lightTheme, setTheme } = useContext(ThemeContext);
 
   const [navOpen, setNavOpen] = useState(false);
@@ -21,7 +21,7 @@ const Header = ({ scrollRefs }) => {
   };
 
   return (
-    <header className="py-6">
+    <div className="py-6">
       <nav className="w-[90%] max-w-[1240px] mx-auto  items-center relative gap-16">
         <div>
           <h1 className="text-xl font-medium flex gap-1 w-fit items-center">
@@ -88,10 +88,10 @@ const Header = ({ scrollRefs }) => {
           </button>
         </div>
       </nav>
-    </header>
+    </div>
   );
 };
 
-export default Header;
+export default Navbar;
 
 
