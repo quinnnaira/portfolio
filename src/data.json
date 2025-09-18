@@ -1,0 +1,53 @@
+{
+  
+  "data": [
+    {
+      "id": "1",
+      "name": "Quinnnaira store",
+      "images": "/images/ecommerce.png",
+      "github": "https://github.com/quinnnaira/Quinnnaira-store",
+      "visit": "https://quinnnaira-store.vercel.app/",
+      "text": "Quinnnaira store serves as a digital platform for buying and selling products or services. It provides users with a seamless shopping experience, allowing them to browse a wide range of items with ease. The platform is designed to simplify the buying process, from product selection to secure checkout. Customers can enjoy the convenience of shopping anytime."
+    },
+    {
+      "id": "2",
+      "name": "Portfolio",
+      "images": "/images/portfolio.png",
+      "github": "https://github.com/quinnnaira/portfolio",
+      "visit": "https://obehi-portfolio.vercel.app/",
+      "text": "My portfolio website functions as a platform where people can display my projects, information about me, and demonstrate my proficiency with modern web development technologies and tools. It allows potential employers or clients to explore my work and learn more about my capabilities in a visually appealing and user-friendly manner"
+    },
+    {
+      "id": "3",
+      "name": "Weather App",
+      "images": "/images/weather.png",
+      "github": "https://github.com/quinnnaira/weather_app",
+      "visit": "https://weather-app-coral-six-93.vercel.app/",
+      "text": "The Weather App was built to provide live forecasts that keep you updated on changing conditions in real time. It delivers daily updates predictions tailored to any location you choose. Whether it’s sunshine, heavy rain, or a storm, the app ensures you’re always prepared with accurate information. Users can easily track temperature, wind speed, humidity, and other key weather details with clarity."
+    },
+    {
+      "id": "4",
+      "name": "Admin Dashboard",
+      "images": "/images/dashboard.png",
+      "github": "https://github.com/quinnnaira/admin_dashboard",
+      "visit": "https://admin-dashboard-sand-eta-77.vercel.app/",
+      "text": "The admin dashboard app simplifies business management with an intuitive, all-in-one platform. It offers real-time data visualization through interactive charts and reports for quick insights. Users can customize layouts, widgets, and notifications to fit their needs. Built-in security and role-based access ensure safe and controlled usage."
+    },
+    {
+      "id": "5",
+      "name": "To do list app",
+      "images": "/images/todo.png",
+      "github": "https://github.com/quinnnaira/todo-list-app",
+      "visit": "https://obehi-todo-lists-app.vercel.app/",
+      "text": "Todo-list app allows users to create, manage, and organize their daily tasks with ease. It helps users stay productive by letting them add new tasks and track their progress. Each task can be marked as completed, edited when priorities change, or deleted if no longer needed. The app is designed to provide a clean and intuitive interface for stress-free task management."
+    },
+    {
+      "id": "6",
+      "name": "Calculator App",
+      "images": "/images/calculator.png",
+       "github": "https://github.com/quinnnaira/calculatorApp",
+      "visit": "https://effervescent-mousse-a71268.netlify.app/",
+      "text": "Calculator app allows users to input numeric values and perform calculations with a variety of basic operations. It provides a clean and simple interface, making it easy for anyone to quickly solve arithmetic problems. The app also includes essential features such as clearing the input, editing numbers, and displaying accurate results. Users can work with both whole numbers and decimal values."
+    }
+  ]
+}
