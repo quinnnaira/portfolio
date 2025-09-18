@@ -19,10 +19,10 @@ const Hero = () => {
             Obehi Quincy Isikhuemen
           </h1>
           <p>
-            A frontend developer with experience working with HTML5, JavaScript,
-            React/Redux, next.js, CSS3, Bootstrap css, Tailwind css, SASS API
-            architecture and so much more.
-          </p>
+           A passionate Frontend Developer with experience building responsive and interactive web applications.</p>
+<p>Proficient in HTML5, CSS3, JavaScript, React/Redux, and Next.js, delivering clean and scalable code.</p>
+<p>Skilled in modern styling tools like Bootstrap, Tailwind CSS, and SASS, ensuring sleek and adaptive designs.</p>
+<p>Experienced in consuming and integrating APIs, with strong collaboration and project management tools like Github and Jira.</p>
           <div className="my-5 flex items-center justify-between md:justify-start gap-5">
             <button
               className={`px-3 py-2 rounded-md ${
