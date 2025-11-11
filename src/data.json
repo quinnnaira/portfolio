@@ -32,6 +32,23 @@
       "github": "https://github.com/quinnnaira/weather_app",
       "visit": "https://weather-app-coral-six-93.vercel.app/",
       "text": "The Weather App was built to provide live forecasts that keep you updated on changing conditions in real time. It delivers daily updates predictions tailored to any location you choose. Whether it’s sunshine, heavy rain, or a storm, the app ensures you’re always prepared with accurate information. Users can easily track temperature, wind speed, humidity, and other key weather details with clarity."
+    },
+    {
+      "id": "5",
+      "name": "Thebadestevents",
+      "images": "/images/thebadestevents.png",
+      "github": "",
+      "visit": "https://thebadestevents.com/",
+      "text": "A full-service event planning & hospitality company specialising in weddings, brand activations, social and virtual events. I collaborated in the development of the website and UI, integrating analytics to monitor user engagement and conversion through contact forms and booking funnels."
+    },
+    {
+      "id": "6",
+      "name": "nigerians.ca",
+      "images": "/images/nigerians.png",
+      "github": "",
+      "visit": "https://www.nigerians.ca/",
+      "text": "A community directory & resource hub for Nigerians in Canada: jobs, businesses, community groups, events and cultural networks. I contributed to the frontend build, implemented event tracking for user directories, and configured dashboards to track user-journey analytics and growth metrics."
     }
+
   ]
 }

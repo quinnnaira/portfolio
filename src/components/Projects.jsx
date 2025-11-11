@@ -34,7 +34,7 @@ const Projects = ({ projectRef }) => {
                 </p>
 
                 <div className="flex gap-6">
-                  <span>
+                  {/* <span>
                     <a
                       href={item.github}
                       target="_blank"
@@ -45,7 +45,7 @@ const Projects = ({ projectRef }) => {
                     >
                       <ion-icon name="logo-github"></ion-icon> Github
                     </a>
-                  </span>
+                  </span> */}
                   <span>
                     <a
                       href={item.visit}
